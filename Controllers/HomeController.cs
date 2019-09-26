@@ -17,9 +17,10 @@ namespace WebApplication2.Controllers
             Category = "WATER SPORTS"
         };
 
+        // GET: Home
         public IActionResult Index()
         {
-            return View();
+            return View(myProduct);
         }
     }
 }
